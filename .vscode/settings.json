@@ -1,0 +1,11 @@
+{
+	"files.associations": {
+		"string.h": "c",
+		"libft.h": "c",
+		"stdio.h": "c",
+		"stdlib.h": "c",
+		"chrono": "c",
+		"functional": "c",
+		"unistd.h": "c"
+	}
+}
