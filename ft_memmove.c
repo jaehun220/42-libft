@@ -20,13 +20,20 @@ void	*ft_memmove(void *dest, const void *src, size_t num)
 	i = 0;
 	buf_src = (unsigned char *) src;
 	buf_dest = (unsigned char *) dest;
-	while (i < num)
+	if (buf_src == buf_dest || num == 0)
+		return (dest);
+	if (buf_dest < buf_src)
 	{
-		if (dest <= src)
+		while (i < num)
+		{
 			buf_dest[i] = buf_src[i];
-		else
-			buf_dest[num - 1 - i] = buf_src[num - 1 - i];
-		i++;
+			i++;
+		}
+	}
+	else
+	{
+		while (num--)
+			buf_dest[num] = buf_src[num];
 	}
 	return (buf_dest);
 }

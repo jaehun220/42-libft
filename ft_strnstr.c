@@ -21,7 +21,7 @@ char	*ft_strnstr(const char *h, const char *n, size_t len)
 		return ((char *)h);
 	needle_len = ft_strlen(n);
 	i = 0;
-	while (i < len)
+	while (i < len && h[i])
 	{
 		j = 0;
 		if (h[i + j] == n[j])
