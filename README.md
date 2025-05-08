@@ -73,10 +73,10 @@ typedef struct s_list
 <br>
 
 - 노드 생성 및 조작:
-  'ft_lstnew', 'ft_lstadd_front', 'ft_lstadd_back'
+  `ft_lstnew`, `ft_lstadd_front`, `ft_lstadd_back`
 - 리스트 정보 확인:
-  'ft_lstsize', 'ft_lstlast'
+  `ft_lstsize`, `ft_lstlast`
 - 메모리 해제:
-  'ft_lstdelone', 'ft_lstclear'
+  `ft_lstdelone`, `ft_lstclear`
 - 순회 및 매핑
   `ft_lstiter`, `ft_lstmap`
