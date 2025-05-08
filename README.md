@@ -82,5 +82,3 @@ typedef struct s_list
   'ft_lstdelone', 'ft_lstclear'
 - 순회 및 매핑
   `ft_lstiter`, `ft_lstmap`
-
----
