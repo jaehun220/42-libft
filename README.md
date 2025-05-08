@@ -74,6 +74,9 @@ typedef struct s_list
     void            *content;
     struct s_list   *next;
 } t_list;
+
+---
+
 - 노드 생성 및 조작:
   'ft_lstnew', 'ft_lstadd_front', 'ft_lstadd_back'
 - 리스트 정보 확인:
